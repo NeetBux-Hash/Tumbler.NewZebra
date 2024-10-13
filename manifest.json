@@ -1,9 +1,28 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Tumbler.NewZebra",
+	"name": "Zebra Shirt replaces Bangkok suit",
+	"description": "Replaces the shirt from the Bangkok Suit to a partial zebra patterned shirt. Choose from options.",
+	"authors": ["Tumbler"],
+	"frameworkVersion": "2.33.18",
+	"version": "2.0.0",
+	"options": [
+		{
+			"name": "Replace Starting Suit",
+			"tooltip": "Replaces the Bangkok Starting suit without gloves when you spawn in on the main mission",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"image": "no_gloves.webp",
+			"contentFolders": ["content"]
+		},
+
+		{
+			"name": "Replace Mastery Suit",
+			"type": "checkbox",
+			"tooltip": "Replaces The Bangkok Mastery reward suit with gloves to be used anywhere",
+			"enabledByDefault": true,
+			"image": "with_gloves.webp",
+			"contentFolders": ["content2"]
+		}
+	]
 }
