@@ -1,7 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Tumbler.NewZebra",
-	"name": "Zebra Shirt replaces Bangkok suit",
+	"name": "Zebra Shirt",
 	"description": "Replaces the shirt from the Bangkok Suit to a partial zebra patterned shirt. Choose from options.",
 	"authors": ["Tumbler"],
 	"frameworkVersion": "2.33.18",
