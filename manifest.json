@@ -4,8 +4,8 @@
 	"name": "Zebra Shirt",
 	"description": "Replaces the shirt from the Bangkok Suit to a partial zebra patterned shirt. Choose from options.",
 	"authors": ["Tumbler"],
-	"frameworkVersion": "2.33.18",
-	"version": "2.0.0",
+	"frameworkVersion": "2.33.20",
+	"version": "1.0.0",
 	"options": [
 		{
 			"name": "Replace Starting Suit",
@@ -15,7 +15,6 @@
 			"image": "no_gloves.webp",
 			"contentFolders": ["content"]
 		},
-
 		{
 			"name": "Replace Mastery Suit",
 			"type": "checkbox",
@@ -24,5 +23,6 @@
 			"image": "with_gloves.webp",
 			"contentFolders": ["content2"]
 		}
-	]
+	],
+	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.NewZebra/releases/latest/download/updates.json"
 }
